@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#67e5b3"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#141616"
+        android:textStyle="bold"
+        android:scrollbars="vertical"
+        android:id="@+id/head1"/>
+
+
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/nativeview1"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"
+        ads:adSize="300X220"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+    </com.google.android.gms.ads.NativeExpressAdView>
+
+
+
+</FrameLayout>
+

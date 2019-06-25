@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="2"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:id ="@+id/buttonc3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="3"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="5"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:id ="@+id/buttonc6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="6"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id ="@+id/buttonc7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="7"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:id ="@+id/buttonc8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="8"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id ="@+id/buttonc9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="9"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id ="@+id/buttonc10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="10"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="11"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="12"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:id ="@+id/buttonc13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="13"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc14"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="14"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="15"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc16"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="16"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc17"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="17"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:id ="@+id/buttonc18"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="18"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc19"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="19"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc20"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="20"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc21"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="21"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc22"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="22"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:id ="@+id/buttonc23"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="23"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="24"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc25"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="25"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc26"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="26"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc27"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:text="27"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:id ="@+id/buttonc28"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="28"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc29"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="29"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id ="@+id/buttonc30"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="30"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rstechsoftwares.homeworkout">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Armeasyplan1"></activity>
+        <activity android:name=".Armeasyplanstart"></activity>
+        <activity android:name=".Armeasyplanstartitems"></activity>
+        <activity android:name=".easyplanstartitems" />
+        <activity android:name=".easyplanstart" />
+        <activity android:name=".easyplan1" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".chall_armworkout"
+            android:label="Arm Workout" />
+        <activity android:name=".mediumplan1" />
+        <activity android:name=".mediumplanstart" />
+        <activity android:name=".mediumplanstartitems" />
+        <activity android:name=".hardplan1" />
+        <activity android:name=".hardplanstart"></activity>
+        <activity android:name=".hardplanstartitems" />
+        <activity
+            android:name=".instr_armWorkout"
+            android:label="Arm Workout" />
+        <activity
+            android:name=".instr_buttWorkout"
+            android:label="Butt Workout" />
+        <activity
+            android:name=".instr_legWorkout"
+            android:label="Leg Workout" />
+        <activity
+            android:name=".instr_absWorkout"
+            android:label="Abs Workout" />
+        <activity android:name=".instr_fbWorkout_item" />
+        <activity
+            android:name=".instr_fbWorkout"
+            android:label="Full Body Workout" />
+        <activity
+            android:name=".chall_fbWorkout"
+            android:label="Full Body Workout" />
+        <activity android:name=".fragment1" />
+        <activity android:name=".fragment2" />
+        <activity android:name=".fragment3" />
+        <activity
+            android:name=".First"
+            android:label="30 Days Fitness Challenge"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
